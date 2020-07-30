@@ -11,6 +11,7 @@ export const ContentAreaContainer = styled.section`
   position: relative;
   z-index: 10;
   @media (max-width: 800px) {
+    margin-top: 45px !important;
     padding-top: 100px;
     flex-direction: column;
   }

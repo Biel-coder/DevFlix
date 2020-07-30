@@ -4,10 +4,15 @@ import devflix from '../../assets/img/devflix.png';
 import '../../App.css';
 
 function Footer() {
+  const imgFooter = {
+    height: "70px",
+    width: "120px"
+  }
+
   return (
     <FooterBase>
       <a href="/">
-        <img src={devflix} alt="Logo DevFlix" />
+        <img style={imgFooter} src={devflix} alt="Logo DevFlix" />
       </a>
       <p>
         Orgulhosamente criado durante a
