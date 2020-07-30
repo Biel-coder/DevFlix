@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const ContentAreaContainer = styled.section`
   margin-left: 5%;
   margin-right: 5%;
+  margin-top: 95px !important;
   height: 100%;
   display: flex;
   align-items: center;
@@ -67,7 +68,7 @@ ContentAreaContainer.Title = styled.h2`
 
 export const BannerMainContainer = styled.section`
   height: 80vh;
-  position: relative;
+  position: relative; /* !!!! */
   color: #fff;
   background-image: ${({ backgroundImage }) => `url(${backgroundImage})`}; 
   background-size: cover;
